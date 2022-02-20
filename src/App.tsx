@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { ROUTES } from "./constants/routes";
 
 function App() {
   return (
@@ -14,6 +16,20 @@ function App() {
         >
           georgebullock/cra-boilerplate
         </a>
+        <div>
+          <Routes>
+            {ROUTES.map((route) => {
+              console.log("route.component:", route.component);
+              return (
+                <Route
+                  path={route.path}
+                  key={route.key}
+                  element={route.component}
+                />
+              );
+            })}
+          </Routes>
+        </div>
       </header>
     </div>
   );
