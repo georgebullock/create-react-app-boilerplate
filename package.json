@@ -31,8 +31,12 @@
       "react-app",
       "react-app/jest",
       "plugin:jsx-a11y/recommended",
+      "plugin:prettier/recommended",
       "prettier"
-    ]
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    }
   },
   "browserslist": {
     "production": [
@@ -49,6 +53,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "prettier": "2.5.1"
   }
 }
