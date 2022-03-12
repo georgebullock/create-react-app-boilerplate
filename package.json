@@ -9,7 +9,8 @@
     "eject": "react-scripts eject",
     "lint:js": "eslint --ext .js,.ts,.jsx,.tsx src",
     "lint:css": "stylelint ./src/**/*.ts",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -76,7 +77,8 @@
     "./src/**/*.{ts,js,tsx,jsx}": "yarn test",
     "./src/**/*.{js,ts}": "stylelint",
     "*.{ts,js,tsx,jsx,json,yml,md}": "prettier --write",
-    "*.{ts,tsx}": "tsc-files --noEmit"
+    "*.{ts,tsx}": "tsc-files --noEmit",
+    "*.ts": "stylelint --fix"
   },
   "browserslist": {
     "production": [
