@@ -6,7 +6,7 @@ export type IContainerProps = {
 };
 
 const Container = ({ children }: IContainerProps) => {
-  return <StyledContainer>{children}Hello World</StyledContainer>;
+  return <StyledContainer>{children}</StyledContainer>;
 };
 
 export default Container;
