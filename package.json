@@ -76,7 +76,7 @@
   },
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": "eslint --cache --fix",
-    "./src/**/*.{ts,js,tsx,jsx}": "jest --findRelatedTests",
+    "./src/**/*.{ts,js,tsx,jsx}": "yarn test",
     "./src/**/*.{js,ts}": "stylelint",
     "*.{ts,js,tsx,jsx,json,yml,md}": "prettier --write",
     "*.{ts,tsx}": "tsc-files --noEmit",
