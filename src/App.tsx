@@ -14,15 +14,17 @@ function App() {
           height: "100vh",
         }}
       >
-        <header>
-          <p>Create React App Boilerplate</p>
-          <a
-            href="https://gitlab.com/georgebullock/cra-boilerplate"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            georgebullock/cra-boilerplate
-          </a>
+        <header style={{ textAlign: "center" }}>
+          <h1>Create React App Boilerplate</h1>
+          <h2>
+            <a
+              href="https://gitlab.com/georgebullock/cra-boilerplate"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              georgebullock/cra-boilerplate
+            </a>
+          </h2>
           <div>
             <Routes>
               {ROUTES.map((route) => {
