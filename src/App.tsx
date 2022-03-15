@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { ROUTES } from "./constants/routes";
 import Theming from "./styles/Theming";
@@ -7,11 +6,17 @@ import Theming from "./styles/Theming";
 function App() {
   return (
     <Theming>
-      <div className="App">
-        <header className="App-header">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+        }}
+      >
+        <header>
           <p>Create React App Boilerplate</p>
           <a
-            className="App-link"
             href="https://gitlab.com/georgebullock/cra-boilerplate"
             target="_blank"
             rel="noopener noreferrer"

@@ -15,6 +15,7 @@ export default createGlobalStyle`
     body {
         text-rendering: geometricPrecision;
         font-size: 1rem;
+        color: black;
     }
 
 `;
