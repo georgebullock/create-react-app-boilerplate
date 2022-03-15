@@ -9,7 +9,7 @@ export default createGlobalStyle`
   }
 
     html {
-        font-size: 37.5%;
+        font-size: 62.5%;
     }
 
     body {

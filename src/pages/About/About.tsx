@@ -5,7 +5,7 @@ import { StyledContainer } from "./../../components/Container/Container.styles";
 export function About() {
   return (
     <StyledContainer>
-      <Link to="/about">About</Link>
+      <Link to="/">Home Page</Link>
     </StyledContainer>
   );
 }
