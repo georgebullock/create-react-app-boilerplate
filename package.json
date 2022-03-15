@@ -9,8 +9,7 @@
     "eject": "react-scripts eject",
     "lint:js": "eslint --ext .js,.ts,.jsx,.tsx src",
     "lint:css": "stylelint ./src/**/*.ts",
-    "format": "prettier --write .",
-    "prepare": "husky install"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
