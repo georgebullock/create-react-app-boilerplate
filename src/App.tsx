@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { ROUTES } from "./constants/routes";
 import Theming from "./styles/Theming";
