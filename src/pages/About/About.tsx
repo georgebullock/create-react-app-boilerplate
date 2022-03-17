@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { StyledContainer } from "./../../components/Container/Container.styles";
+import { Container } from "./../../components/Container/Container.styles";
 
 export function About() {
   return (
-    <StyledContainer>
+    <Container>
       <Link to="/">Home Page</Link>
-    </StyledContainer>
+    </Container>
   );
 }
